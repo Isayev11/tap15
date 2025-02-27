@@ -17,7 +17,7 @@ header{
 nav{
     width: 80%;
 }
-#navBar{
+#navbar{
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -31,6 +31,14 @@ nav{
     width: 100%;
     border-bottom: 1px solid white;
     margin-bottom: 15px;
+}
+#drop1 , #drop2{
+    display: none;
+    position: absolute;
+    background-color: rgb(116, 116, 231);
+    padding: 15px;
+    list-style-type: none;
+    width: 100vw;
 }
 #drop1{
     top: 20px;
