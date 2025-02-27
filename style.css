@@ -6,7 +6,7 @@
 }
 body{
     background-color: rgb(156 ,112, 157);
-    background: radial-gradient(circle, rgba(156 , 112 , 157 , 1)0% , rgba(172,126,138,1)21% , rgba(170,125,140,1)56% , rgba(208,176,106,1)95%);
+    background: radial-gradient(circle, rgba(156 , 112 , 157 , 1) 0% , rgba(172,126,138,1) 21% , rgba(170,125,140,1) 56% , rgba(208,176,106,1) 95% );
 }
 header{
     width: 100vw;
@@ -24,7 +24,7 @@ nav{
     list-style-type: none;
     font-weight: bolder;
 }
-#navBar li:nth-child(3){
+#navbar li:nth-child(3){
    position: relative;
 }
 #drop1 li, #drop2 li{
@@ -39,6 +39,9 @@ nav{
     padding: 15px;
     list-style-type: none;
     width: 100vw;
+}
+#drop1 li:nth-child(4){
+    position: relative;
 }
 #drop1{
     top: 20px;
